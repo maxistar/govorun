@@ -1,6 +1,6 @@
 const assert = require('assert')
 const { When, Then } = require('@cucumber/cucumber')
-const { Tokenizer } = require('../../src')
+const { Tokenizer } = require('../../src/tokenizer')
 
 When('the greeter says hello', function () {
   this.whatIHeard = new Tokenizer().sayHello()

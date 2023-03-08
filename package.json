@@ -4,11 +4,16 @@
   "description": "Govorun is tha speak editing model that allow you edit any files using only your vouce.",
   "main": "index.js",
   "scripts": {
-    "test": "cucumber-js"
+    "test:bdd": "cucumber-js",
+    "test:jest": "jest",
+    "test": "npm run test:bdd && npm run test:jest"
   },
   "author": "",
   "license": "ISC",
   "dependencies": {
     "@cucumber/cucumber": "^9.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.5.0"
   }
 }
