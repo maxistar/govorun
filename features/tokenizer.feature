@@ -1,5 +1,5 @@
-Feature: Greeting
+Feature: Tokenizer
 
-  Scenario: Say hello
-    When the greeter says hello
-    Then I should have heard "hello"
+  Scenario: Tokenizer Works
+    When Tokenizer has example text as input
+    Then It should return expected result
