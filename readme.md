@@ -17,3 +17,17 @@ or
 npm test
 ```
 
+## Linting
+
+Run ESLint to check the code base for formatting and quality issues:
+
+```bash
+npm run lint
+```
+
+You can pass `-- --fix` to automatically resolve any safe-to-fix problems that are reported:
+
+```bash
+npm run lint -- --fix
+```
+
