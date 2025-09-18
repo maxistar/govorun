@@ -12,7 +12,7 @@
     "test:bdd": "npm run build && npm run test:bdd:run",
     "test:jest": "npm run build && npm run test:jest:run",
     "test": "npm run build && npm run test:bdd:run && npm run test:jest:run",
-    "lint": "eslint . --ext .ts"
+    "lint": "ESLINT_USE_FLAT_CONFIG=false eslint . --ext .ts"
   },
   "author": "",
   "license": "ISC",
