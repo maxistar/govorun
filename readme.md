@@ -1,8 +1,8 @@
 # Readme
 
-Govorun is tha speak editing model that allow you edit any files using only your vouce.
+Govorun is tha speak editing model that allow you edit any files using only your voice.
 
-The goal is provide the way write notes, edit files, navigate trought the text unsing only your
+The goal is provide the way write notes, edit files, navigate trought the text using only your
 voice.
 
 ## Run Tests
