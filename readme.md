@@ -1,8 +1,8 @@
 # Readme
 
-Govorun is tha speak editing model that allow you edit any files using only your voice.
+Govorun is a speach-editing model that allow you edit any files using only your voice.
 
-The goal is provide the way write notes, edit files, navigate trought the text using only your
+The goal is provided the way write notes, edit files, navigate through the text using only your
 voice.
 
 ## Run Tests
@@ -17,9 +17,3 @@ or
 npm test
 ```
 
-## TODO
-
-[x] Setup tests.
-  [x] are there any native like tests? cucumber?
-      there are! `npm install @cucumber/cucumber`
-[ ] translate tokenizer from java to javascript
