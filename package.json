@@ -2,11 +2,16 @@
   "name": "govorun",
   "version": "1.0.0",
   "description": "Govorun is tha speak editing model that allow you edit any files using only your vouce.",
-  "main": "index.js",
+  "main": "dist/index.js",
+  "types": "dist/index.d.ts",
   "scripts": {
-    "test:bdd": "cucumber-js",
-    "test:jest": "jest",
-    "test": "npm run test:bdd && npm run test:jest"
+    "build": "tsc",
+    "clean": "rm -rf dist",
+    "test:bdd:run": "cucumber-js --require dist/features/support/**/*.js",
+    "test:jest:run": "jest --config jest.config.js",
+    "test:bdd": "npm run build && npm run test:bdd:run",
+    "test:jest": "npm run build && npm run test:jest:run",
+    "test": "npm run build && npm run test:bdd:run && npm run test:jest:run"
   },
   "author": "",
   "license": "ISC",
