@@ -5,7 +5,10 @@ const enum TokenizerMode {
   Word,
 }
 
-export class Tokenizer {
+export    class Tokenizer
+
+
+{
   public sayHello(): string {
     return 'hello';
   }

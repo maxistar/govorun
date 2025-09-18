@@ -2,7 +2,9 @@ const PUNCTUATION_SPACE = ' ';
 const PUNCTUATION_COMA = ',';
 const PUNCTUATION_N = '\n';
 
-const expectedTokens: string[] = [
+const expectedTokens: string [] 
+    
+    =      [
   'Однажды',
   PUNCTUATION_COMA,
   PUNCTUATION_SPACE,
